@@ -14,8 +14,7 @@ git clone, git config, git add, git status, git commit, git push, git pull, git 
   - git checkout git_blog
 - Rename a branch: git branch -m <new_branch_name>
   - git branch -m git_commands_in_action (It will rename the current branch)
-  - git branch -m git_blog git_commands_in_action
-  - git branch -m <old branch> <new branch>
+  - git branch -m git_blog git_commands_in_action (It will rename the old_branch to new_branch as mentioned in the command)
 - Delete a branch: git branch -d <branch_name>
     - git branch -d git_blog
     - git branch -D git_blog (Force delete)
