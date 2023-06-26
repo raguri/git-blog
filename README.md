@@ -15,8 +15,9 @@ The most commonly used commands are categorized by their specific functionality.
   - *git config –global alias.st status (To create an alias “st” for “status”)*
 
 ## Managing Remote Repositories:
+
 -  View remote repositories: git remote -v
-  - *git remote -v*
+    - *git remote -v* 
 - Add a remote repository: git remote add <remote_name><remote_url>
   - *git remote add origin https://github.com/raguri/git-blog.git*
 - Rename a remote repository: git remote rename <old_name> <new_name>
