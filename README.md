@@ -7,12 +7,12 @@ The most commonly used commands are categorized by their specific functionality.
 ## Configuration:
 - Creates a new Git repository: git init
   - *git init*
-- To set the username: git config –global user.name “FirstName LastName”
-  - *git config –global user.name “sasikumar.raguri”*
-- To set the email: git config –global user.email “test@example.com”
-  - *git config –global user.email “s.raguri@test.com”*
-- Create Git aliases for frequently used commands: git config –global alias.<alias_name> <command>
-  - *git config –global alias.st status (To create an alias “st” for “status”)*
+- To set the username: git config --global user.name “FirstName LastName”
+  - *git config --global user.name “sasikumar.raguri”*
+- To set the email: git config --global user.email “test@example.com”
+  - *git config --global user.email “s.raguri@test.com”*
+- Create Git aliases for frequently used commands: git config --global alias.<alias_name> <command>
+  - *git config --global alias.st status (To create an alias “st” for “status”)*
 
 ## Managing Remote Repositories:
 
@@ -46,12 +46,12 @@ The most commonly used commands are categorized by their specific functionality.
   - *git add -A*
 - Commit changes: git commit -m “Commit message”
   - *git commit –m “Update README.md file”*
-- Amend a commit while keeping the same commit message: git commit –amend –no-edit
-  - *git commit –amend –no-edit*
+- Amend a commit while keeping the same commit message: git commit --amend --no-edit
+  - *git commit --amend --no-edit*
 
 ## History and Viewing Diff Changes:
 - View commit history: git log
-  - *git log –oneline –graph*
+  - *git log --oneline --graph*
 - Show changes in a file: git diff <file_name>
   - *git diff README.md*
 - Show changes between branches: git diff <branch1> <branch2>
@@ -70,8 +70,8 @@ The most commonly used commands are categorized by their specific functionality.
   - *git pull origin feature*
 
 ## Undoing Changes:
-- Discard changes in a file: git checkout — <file_name>
-  - *git checkout — README.md*
+- Discard changes in a file: git checkout -- <file_name>
+  - *git checkout -- README.md*
 - Undo the last commit (keep changes): git revert HEAD
   - *git revert HEAD*
 - Undo the last commit (discard changes): git reset HEAD~
