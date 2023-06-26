@@ -118,7 +118,6 @@ Specify files to ignore in a .gitignore file
   - git bisect bad
 
 
-
 Git is a prominent version control system with many additional features and commands. The above commands are intended to improve your workflow and productivity. I hope you find them helpful.
 
 Happy working with Git..!! 🙂
